@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aakash Garg</title>
+
+  <link rel="stylesheet" type="text/css" href="timetable.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style type="text/css">
+  
+  
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+.hb1 {
+    font-size: 20px;
+}
+
+</style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" class="Parallax">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>                        
+			</button>
+			<a class="navbar-brand" href="./index.html">Aakash Garg</a>
+		  </div>
+		  <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+			  <li><a href="./Academics.html">Academics</a></li>
+			  <li><a href="./projects.html">Projects</a></li>
+			  <li><a href="./Aakash_Garg_Resume.pdf" target="_blank">Resume</a></li>
+			  <li><a href="./index.html#contactme">Contact Me</a></li>
+			</ul>
+		  </div>
+		</nav>
+
+<br><br><br><br><br><br>
+<center>
+	<div class="screen">
+			<div class="heading"  style=" color: white"><h1 align="center">CCGAN (CONTINUOUS-CONDITIONAL-GAN)</h1>
+				<img class="img-responsive img-thumbnail a" src="images/train-0.png" alt="Sorry" width="50%" height="50%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+				<img class="img-responsive img-thumbnail a" src="images/train-48.png" alt="Sorry" width="50%" height="50%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+				<img class="img-responsive img-thumbnail a" src="images/train-3.png" alt="Sorry" width="50%" height="50%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+				<img class="img-responsive img-thumbnail a" src="images/train-4.png" alt="Sorry" width="50%" height="50%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+
+			</div>
+			<script>
+				var myIndex = 0;
+				carousel();
+				
+				function carousel() {
+				  var i;
+				  var x = document.getElementsByClassName("img-responsive img-thumbnail a");
+				  for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";  
+				  }
+				  myIndex++;
+				  if (myIndex > x.length) {myIndex = 1}    
+				  x[myIndex-1].style.display = "block";  
+				  setTimeout(carousel, 3000); 
+				}
+				</script>
+			<div class="matter" style="align-content: left">
+				<p align="left"  style=" color: rgb(90, 83, 83)" ><strong> Internship on a Deep Learning project aimed on improving the regression accuracy for continuous label learning problems using Generative Adversarial Networks </strong></p>
+				<ol type="I" style="text-align: left;">
+					<li>Integrated comparision data into the framework to reduce labeled data.</li>
+					<li>generated the face images conditioned on age (a continuous variable).</li>
+					<li>The age is increasing from top left to bottom right.</b></li>
+					<li>Got nice results on using Triple Generative Adversarial Networks.</li>
+				</ol>
+			</div>
+	</div>
+</center>
+<br><br><br><br>
+<center>
+	<div class="screen">
+			<div class="heading"  style=" color: white"><h1 align="center">BASEBALL-ELIMINATION-PARAMETRIC-MAX-FLOW</h1>
+				<img class="img-responsive img-thumbnail" src="images/baseball.png" alt="Sorry" width="50%" height="100%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+			</div>
+			<div class="matter" style="align-content: left">
+				<ol type="I" style="text-align: left;">
+					<li> Implemented max flow network to calculate baseball eliminations using the Ford-Fulkerson algorithm. 
+						 </li>
+					<li>Efficient Implementation both in terms of space and time through the modified algorithm using the
+						ideas of Parametric Max Flow.</li>
+					<li>Compared the results and efficiency of the modified algorithm with the old one.</li>
+				    
+				</ol>
+			</div>
+	</div>
+</center>
+<br><br><br><br>
+<center>
+	<div class="screen">
+			<div class="heading"  style=" color: white"><h1 align="center">GENERIC-ADVANCED-DATA-STRUCTURES</h1>
+				<img class="img-responsive img-thumbnail c" src="images/redblack.png" alt="Sorry" width="50%" height="100%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+				<img class="img-responsive img-thumbnail c" src="images/trie.png" alt="Sorry" width="50%" height="50%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+				<img class="img-responsive img-thumbnail c" src="images/binaryheap.png" alt="Sorry" width="50%" height="100%" align="right" style="margin:50px;float:right;box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);">
+			</div>
+			<script>
+				var myIndex1 = 0;
+				carousel1();
+				
+				function carousel1() {
+				  var i2;
+				  var x2 = document.getElementsByClassName("img-responsive img-thumbnail c");
+				  for (i2 = 0; i2 < x2.length; i2++) {
+					x2[i2].style.display = "none";  
+				  }
+				  myIndex1++;
+				  if (myIndex1 > x2.length) {myIndex1 = 1}    
+				  x2[myIndex1-1].style.display = "block";  
+				  setTimeout(carousel1, 3000);
+				}
+				</script>
+			<div class="matter" style="align-content: left">
+				<ol type="I" style="text-align: left;">
+					<li> Implemented the 3 advanced data structures namely Trie, RedBlackTree (self balancing) and MaxHeap. 
+						 </li>
+					<li>These data structures are completely generic and process queries in O(log(n)) complexity and hence
+						can be used for optimization at large scales containing large datasets.</li>
+					<li>Optimal choice is made accordingly by comparing the efficiency of these data structures on different
+						inputs.</li>
+				    
+				</ol>
+			</div>
+	</div>
+</center>
+<br><br><br><br>
+</body>
+</html>
